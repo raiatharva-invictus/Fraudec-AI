@@ -1,0 +1,245 @@
+2026-07-21 08:53:31,880 | INFO | Fraudec | ============================================================
+2026-07-21 08:53:31,880 | INFO | Fraudec | Starting Fraudec Data Pipeline
+2026-07-21 08:53:31,880 | INFO | Fraudec | ============================================================
+2026-07-21 08:53:31,881 | INFO | Fraudec | Running CreditCardAdapter
+2026-07-21 08:53:31,881 | INFO | Fraudec | Loading D:\AIML and Python (Workspace)\project\Fraudec-AI\datasets\raw\creditcard.csv
+2026-07-21 08:53:33,797 | INFO | Fraudec | Dataset validation successful.
+2026-07-21 08:53:34,730 | INFO | Fraudec | Removed 1081 duplicate rows.
+2026-07-21 08:54:28,694 | INFO | Fraudec | ============================================================
+2026-07-21 08:54:28,696 | INFO | Fraudec | Starting Fraudec Data Pipeline
+2026-07-21 08:54:28,696 | INFO | Fraudec | ============================================================
+2026-07-21 08:54:28,696 | INFO | Fraudec | Running CreditCardAdapter
+2026-07-21 08:54:28,696 | INFO | Fraudec | Loading D:\AIML and Python (Workspace)\project\Fraudec-AI\datasets\raw\creditcard.csv
+2026-07-21 08:54:30,727 | INFO | Fraudec | Dataset validation successful.
+2026-07-21 08:54:31,701 | INFO | Fraudec | Removed 1081 duplicate rows.
+2026-07-21 08:54:33,298 | INFO | Fraudec | Saved normalized dataset -> D:\AIML and Python (Workspace)\project\Fraudec-AI\datasets\normalized\creditcard_normalized.parquet
+2026-07-21 08:54:33,314 | INFO | Fraudec | ============================================================
+2026-07-21 08:54:33,316 | INFO | Fraudec | Pipeline Completed Successfully
+2026-07-21 08:54:33,316 | INFO | Fraudec | ============================================================
+2026-07-21 09:11:45,727 | INFO | Fraudec | Loading creditcard_normalized.parquet
+2026-07-21 09:11:46,218 | INFO | Fraudec | Unified Shape : (283726, 37)
+2026-07-21 09:11:46,677 | INFO | Fraudec | Unified Dataset Saved.
+2026-07-21 09:11:46,712 | INFO | Fraudec | ============================================================
+2026-07-21 09:11:46,714 | INFO | Fraudec | Starting Fraudec Data Pipeline
+2026-07-21 09:11:46,715 | INFO | Fraudec | ============================================================
+2026-07-21 09:11:46,715 | INFO | Fraudec | Running CreditCardAdapter
+2026-07-21 09:11:46,715 | INFO | Fraudec | Loading D:\AIML and Python (Workspace)\project\Fraudec-AI\datasets\raw\creditcard.csv
+2026-07-21 09:11:48,557 | INFO | Fraudec | Dataset validation successful.
+2026-07-21 09:11:49,516 | INFO | Fraudec | Removed 1081 duplicate rows.
+2026-07-21 09:11:50,046 | INFO | Fraudec | Saved normalized dataset -> D:\AIML and Python (Workspace)\project\Fraudec-AI\datasets\normalized\creditcard_normalized.parquet
+2026-07-21 09:11:50,065 | INFO | Fraudec | Running PaySimAdapter
+2026-07-21 09:11:50,066 | INFO | Fraudec | Loading D:\AIML and Python (Workspace)\project\Fraudec-AI\datasets\raw\paysim.csv
+2026-07-21 09:13:27,571 | INFO | Fraudec | Loading creditcard_normalized.parquet
+2026-07-21 09:13:27,929 | INFO | Fraudec | Unified Shape : (283726, 37)
+2026-07-21 09:13:28,369 | INFO | Fraudec | Unified Dataset Saved.
+2026-07-21 09:13:28,405 | INFO | Fraudec | ============================================================
+2026-07-21 09:13:28,406 | INFO | Fraudec | Starting Fraudec Data Pipeline
+2026-07-21 09:13:28,406 | INFO | Fraudec | ============================================================
+2026-07-21 09:13:28,407 | INFO | Fraudec | Running CreditCardAdapter
+2026-07-21 09:13:28,408 | INFO | Fraudec | Loading D:\AIML and Python (Workspace)\project\Fraudec-AI\datasets\raw\creditcard.csv
+2026-07-21 09:13:30,224 | INFO | Fraudec | Dataset validation successful.
+2026-07-21 09:13:31,140 | INFO | Fraudec | Removed 1081 duplicate rows.
+2026-07-21 09:13:31,648 | INFO | Fraudec | Saved normalized dataset -> D:\AIML and Python (Workspace)\project\Fraudec-AI\datasets\normalized\creditcard_normalized.parquet
+2026-07-21 09:13:31,662 | INFO | Fraudec | Running PaySimAdapter
+2026-07-21 09:13:31,662 | INFO | Fraudec | Loading D:\AIML and Python (Workspace)\project\Fraudec-AI\datasets\raw\paysim.csv
+2026-07-21 09:13:41,552 | INFO | Fraudec | Dataset validation successful.
+2026-07-21 09:14:04,531 | INFO | Fraudec | Saved normalized dataset -> D:\AIML and Python (Workspace)\project\Fraudec-AI\datasets\normalized\paysim_normalized.parquet
+2026-07-21 09:14:04,992 | INFO | Fraudec | Running IEEEAdapter
+2026-07-21 09:14:21,380 | INFO | Fraudec | Loaded IEEE Transaction Dataset.
+2026-07-21 09:14:21,381 | INFO | Fraudec | Loaded IEEE Identity Dataset.
+2026-07-21 09:14:21,579 | INFO | Fraudec | Merged IEEE Dataset Shape : (590540, 434)
+2026-07-21 09:14:21,590 | INFO | Fraudec | Dataset validation successful.
+2026-07-21 09:14:32,760 | INFO | Fraudec | Saved normalized dataset -> D:\AIML and Python (Workspace)\project\Fraudec-AI\datasets\normalized\ieee_normalized.parquet
+2026-07-21 09:14:32,785 | INFO | Fraudec | ============================================================
+2026-07-21 09:14:32,786 | INFO | Fraudec | Pipeline Completed Successfully
+2026-07-21 09:14:32,786 | INFO | Fraudec | ============================================================
+2026-07-21 09:25:40,355 | INFO | Fraudec | Starting preprocessing...
+2026-07-21 09:25:43,146 | INFO | Fraudec | Processed dataset saved -> D:\AIML and Python (Workspace)\project\Fraudec-AI\datasets\processed\fraudec_processed.parquet
+2026-07-21 09:28:02,303 | INFO | Fraudec | Starting feature engineering...
+2026-07-21 09:28:02,524 | INFO | Fraudec | Feature engineering completed.
+2026-07-21 09:28:02,764 | INFO | Fraudec | Features saved -> D:\AIML and Python (Workspace)\project\Fraudec-AI\datasets\processed\fraudec_features.parquet
+2026-07-21 09:29:25,789 | INFO | Fraudec | Training random_forest
+2026-07-21 09:30:19,365 | INFO | Fraudec | Training xgboost
+2026-07-21 09:30:30,738 | INFO | Fraudec | random_forest | F1=0.8263 | AUC=0.9480
+2026-07-21 09:30:31,508 | INFO | Fraudec | xgboost | F1=0.8538 | AUC=0.9810
+2026-07-21 09:30:31,508 | INFO | Fraudec | Best Model: xgboost
+2026-07-21 09:30:31,525 | INFO | Fraudec | Model saved -> D:\AIML and Python (Workspace)\project\Fraudec-AI\models\fraudec_best_model.pkl
+2026-07-21 09:33:48,876 | INFO | Fraudec | Evaluation completed.
+2026-07-21 09:54:45,553 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 09:56:21,311 | INFO | Fraudec | Received prediction request
+2026-07-21 09:56:33,154 | INFO | Fraudec | Received prediction request
+2026-07-21 10:17:10,653 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 10:18:51,227 | INFO | Fraudec | Received prediction request
+2026-07-21 10:48:09,033 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 10:48:27,194 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 10:51:42,627 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 10:51:54,490 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 10:52:04,542 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 10:52:42,317 | INFO | Fraudec | Starting feature engineering...
+2026-07-21 10:52:42,371 | INFO | Fraudec | Removed 28 PCA credit card features
+2026-07-21 10:52:42,766 | INFO | Fraudec | Feature engineering completed.
+2026-07-21 10:52:43,166 | INFO | Fraudec | Features saved -> D:\AIML and Python (Workspace)\project\Fraudec-AI\datasets\processed\fraudec_features.parquet
+2026-07-21 10:53:12,786 | INFO | Fraudec | Training random_forest
+2026-07-21 10:53:54,074 | INFO | Fraudec | Training xgboost
+2026-07-21 10:54:05,716 | INFO | Fraudec | random_forest | F1=0.1272 | AUC=0.6618
+2026-07-21 10:54:06,246 | INFO | Fraudec | xgboost | F1=0.1560 | AUC=0.7947
+2026-07-21 10:54:06,247 | INFO | Fraudec | Best Model: xgboost
+2026-07-21 10:54:06,266 | INFO | Fraudec | Model saved -> D:\AIML and Python (Workspace)\project\Fraudec-AI\models\fraudec_best_model.pkl
+2026-07-21 14:03:19,564 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:03:29,837 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:03:39,758 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:03:49,526 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:03:59,251 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:04:09,356 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:04:19,477 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:05:08,364 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:05:17,451 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:05:25,964 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:05:41,828 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:05:50,708 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:06:02,840 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:06:13,097 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:06:51,816 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:07:04,801 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:07:16,209 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:07:30,750 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:07:42,508 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:07:55,060 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:08:06,017 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:08:17,952 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:08:30,474 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:08:44,995 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:08:58,816 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:09:48,183 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:09:58,000 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:10:08,899 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:10:17,693 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:12:21,403 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:12:34,746 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:12:47,205 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:12:57,256 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:14:00,949 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:14:14,286 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:15:23,106 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:15:35,656 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:15:47,863 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:16:00,061 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:16:10,846 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:16:23,336 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:16:34,421 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:16:47,126 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:16:57,908 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:17:11,687 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:17:23,505 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:17:35,144 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:17:47,626 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:18:06,048 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:18:17,866 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:18:30,331 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:18:41,737 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:18:53,974 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:19:05,829 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:19:16,246 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:19:27,880 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:19:38,901 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:19:50,931 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-21 14:20:01,450 | WARNING | Fraudec | LLM unavailable: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-07-24 13:22:22,849 | INFO | Fraudec | ============================================================
+2026-07-24 13:22:22,850 | INFO | Fraudec | Processing PaySim
+2026-07-24 13:22:22,850 | INFO | Fraudec | ============================================================
+2026-07-24 13:22:22,850 | INFO | Fraudec | Loading datasets\raw\paysim.csv
+2026-07-24 13:22:35,937 | INFO | Fraudec | Validation successful.
+2026-07-24 13:22:35,937 | INFO | Fraudec | Cleaning PaySim dataset...
+2026-07-24 13:22:50,104 | INFO | Fraudec | Removed 0 duplicates
+2026-07-24 13:22:50,698 | INFO | Fraudec | Engineering PaySim features...
+2026-07-24 13:22:51,092 | INFO | Fraudec | Normalizing columns...
+2026-07-24 13:22:57,857 | INFO | Fraudec | Saved datasets\normalized\paysim_normalized.parquet
+2026-07-24 13:22:57,857 | INFO | Fraudec | Finished : datasets/normalized/paysim_normalized.parquet
+2026-07-24 13:30:30,499 | INFO | Fraudec | Loading IEEE transaction dataset
+2026-07-24 13:30:46,503 | INFO | Fraudec | Loading IEEE identity dataset
+2026-07-24 13:30:47,229 | INFO | Fraudec | Merging transaction and identity
+2026-07-24 13:30:47,567 | INFO | Fraudec | Merged shape : (590540, 434)
+2026-07-24 13:30:47,567 | INFO | Fraudec | Cleaning IEEE dataset
+2026-07-24 13:30:55,958 | INFO | Fraudec | Creating IEEE features
+2026-07-24 13:30:56,015 | INFO | Fraudec | Normalizing IEEE columns
+2026-07-24 13:34:32,395 | INFO | Fraudec | Loading IEEE transaction dataset
+2026-07-24 13:34:48,823 | INFO | Fraudec | Loading IEEE identity dataset
+2026-07-24 13:34:49,675 | INFO | Fraudec | Merging transaction and identity
+2026-07-24 13:38:17,186 | INFO | Fraudec | Loading IEEE transaction dataset
+2026-07-24 13:38:35,082 | INFO | Fraudec | Loading IEEE identity dataset
+2026-07-24 13:38:35,839 | INFO | Fraudec | Merging transaction and identity
+2026-07-24 13:38:36,150 | INFO | Fraudec | Merged shape : (590540, 434)
+2026-07-24 13:38:36,150 | INFO | Fraudec | Cleaning IEEE dataset
+2026-07-24 13:38:45,181 | INFO | Fraudec | Creating IEEE features
+2026-07-24 13:38:45,239 | INFO | Fraudec | Normalizing IEEE columns
+2026-07-24 13:42:51,908 | INFO | Fraudec | Loading IEEE transaction dataset
+2026-07-24 13:43:07,820 | INFO | Fraudec | Loading IEEE identity dataset
+2026-07-24 13:43:08,521 | INFO | Fraudec | Merging transaction and identity
+2026-07-24 13:43:08,799 | INFO | Fraudec | Merged shape : (590540, 434)
+2026-07-24 13:43:08,799 | INFO | Fraudec | Cleaning IEEE dataset
+2026-07-24 13:43:16,749 | INFO | Fraudec | Creating IEEE features
+2026-07-24 13:43:16,797 | INFO | Fraudec | Normalizing IEEE columns
+2026-07-24 13:43:17,437 | INFO | Fraudec | Saved IEEE dataset -> datasets/normalized/ieee_normalized.parquet
+2026-07-25 15:12:48,374 | INFO | Fraudec | Loading PaySim dataset
+2026-07-25 15:12:58,334 | INFO | Fraudec | scale_pos_weight=773.7482496194825
+2026-07-25 15:12:58,334 | INFO | Fraudec | Training PaySim XGBoost
+2026-07-25 15:16:08,698 | INFO | Fraudec |               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00   1270881
+           1       0.89      1.00      0.94      1643
+
+    accuracy                           1.00   1272524
+   macro avg       0.94      1.00      0.97   1272524
+weighted avg       1.00      1.00      1.00   1272524
+
+2026-07-25 15:16:08,872 | INFO | Fraudec | F1: 0.9386467889908257
+2026-07-25 15:16:09,310 | INFO | Fraudec | AUC: 0.9995685892235563
+2026-07-25 15:16:09,322 | INFO | Fraudec | Saved models/paysim_xgb.pkl
+2026-07-25 15:16:09,457 | INFO | Fraudec | Loading PaySim dataset
+2026-07-25 15:16:14,812 | INFO | Fraudec | scale_pos_weight=27.580278281911674
+2026-07-25 15:16:14,813 | INFO | Fraudec | Training PaySim XGBoost
+2026-07-25 15:22:10,952 | INFO | Fraudec |               precision    recall  f1-score   support
+
+           0       0.99      0.86      0.92    113975
+           1       0.16      0.73      0.26      4133
+
+    accuracy                           0.86    118108
+   macro avg       0.57      0.80      0.59    118108
+weighted avg       0.96      0.86      0.90    118108
+
+2026-07-25 15:22:10,991 | INFO | Fraudec | F1: 0.26398852223816355
+2026-07-25 15:22:11,053 | INFO | Fraudec | AUC: 0.885392214674743
+2026-07-25 15:22:11,081 | INFO | Fraudec | Saved models/ieee_xgb.pkl
+2026-07-26 12:23:10,221 | INFO | Fraudec | Loading PaySim dataset
+2026-07-26 12:23:22,693 | INFO | Fraudec | scale_pos_weight=773.7482496194825
+2026-07-26 12:23:22,693 | INFO | Fraudec | Training PaySim XGBoost
+2026-07-26 12:26:05,010 | INFO | Fraudec |               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00   1270881
+           1       0.89      1.00      0.94      1643
+
+    accuracy                           1.00   1272524
+   macro avg       0.94      1.00      0.97   1272524
+weighted avg       1.00      1.00      1.00   1272524
+
+2026-07-26 12:26:05,243 | INFO | Fraudec | F1: 0.9386467889908257
+2026-07-26 12:26:05,736 | INFO | Fraudec | AUC: 0.9995685892235563
+2026-07-26 12:26:05,756 | INFO | Fraudec | Saved models/paysim_xgb.pkl
+2026-07-26 12:26:05,924 | INFO | Fraudec | Loading PaySim dataset
+2026-07-26 12:26:13,108 | INFO | Fraudec | scale_pos_weight=27.580278281911674
+2026-07-26 12:26:13,108 | INFO | Fraudec | Training PaySim XGBoost
+2026-07-26 12:32:21,387 | INFO | Fraudec |               precision    recall  f1-score   support
+
+           0       0.99      0.86      0.92    113975
+           1       0.16      0.73      0.26      4133
+
+    accuracy                           0.86    118108
+   macro avg       0.57      0.80      0.59    118108
+weighted avg       0.96      0.86      0.90    118108
+
+2026-07-26 12:32:21,423 | INFO | Fraudec | F1: 0.26398852223816355
+2026-07-26 12:32:21,484 | INFO | Fraudec | AUC: 0.885392214674743
+2026-07-26 12:32:21,511 | INFO | Fraudec | Saved models/ieee_xgb.pkl
+2026-07-27 08:16:18,733 | INFO | Fraudec | LLM initialized
+2026-07-27 08:31:38,390 | WARNING | Fraudec | LLM unavailable: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable
+2026-07-27 08:31:38,390 | WARNING | Fraudec | LLM unavailable: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable

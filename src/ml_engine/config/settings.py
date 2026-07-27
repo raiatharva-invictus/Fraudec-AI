@@ -1,0 +1,30 @@
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+SRC_DIR = PROJECT_ROOT / "src"
+DATASET_DIR = PROJECT_ROOT / "datasets"
+RAW_DATASET_DIR = DATASET_DIR / "raw"
+NORMALIZED_DATASET_DIR = DATASET_DIR / "normalized"
+FEATURE_STORE_DIR = DATASET_DIR / "feature_store"
+PROCESSED_DATASET_DIR = DATASET_DIR / "processed"
+MODEL_DIR = PROJECT_ROOT / "models"
+LOG_DIR = PROJECT_ROOT / "logs"
+CONFIG_DIR = PROJECT_ROOT / "configs"
+NOTEBOOK_DIR = PROJECT_ROOT / "notebooks"
+RANDOM_STATE = 42
+TEST_SIZE = 0.20
+VALIDATION_SIZE = 0.10
+N_JOBS = -1
+LOG_LEVEL = "INFO"
+
+DIRECTORIES = [
+    RAW_DATASET_DIR,
+    NORMALIZED_DATASET_DIR,
+    FEATURE_STORE_DIR,
+    PROCESSED_DATASET_DIR,
+    MODEL_DIR,
+    LOG_DIR,
+]
+
+for directory in DIRECTORIES:
+    directory.mkdir(parents=True, exist_ok=True)
